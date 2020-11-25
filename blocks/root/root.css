@@ -1,5 +1,5 @@
 /* Отладка */
-div, main, section, .footer, h1, h2, h3, p, a, ul, li  {
+div, main, section, .footer, h1, h2, h3, p, a, ul, li, article  {
   border: red solid 1px;
 }
 
