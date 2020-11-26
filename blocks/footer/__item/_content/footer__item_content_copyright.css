@@ -1,0 +1,10 @@
+.footer__item_content_copyright {
+  position: absolute;
+  right: 0;
+}
+
+@media screen and (max-width: 740px) {
+  .footer__item_content_copyright {
+    position: relative;
+  }
+}
