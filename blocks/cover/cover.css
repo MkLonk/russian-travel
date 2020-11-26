@@ -1,0 +1,13 @@
+.cover {
+  max-width: 1184px;
+  height: 100%;
+  margin: 0 auto;
+  padding-top: 92px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+/* не забыть поменять паддинг при апапдиции */

@@ -33,3 +33,12 @@
     @import url(../blocks/cards/__image/cards__image.css);
     @import url(../blocks/cards/__text-column/cards__text-column.css);
       @import url(../blocks/cards/__paragraph/cards__paragraph.css);
+
+@import url(../blocks/cover/cover.css);
+@import url(../blocks/cover/__text-container/cover__text-container.css);
+  @import url(../blocks/cover/__title/cover__title.css);
+  @import url(../blocks/cover/__subtitle/cover__subtitle.css);
+  @import url(../blocks/cover/__image/cover__image.css);
+  @import url(../blocks/cover/__mask/cover__mask.css);
+
+@import url(../blocks/footer/footer.css);
