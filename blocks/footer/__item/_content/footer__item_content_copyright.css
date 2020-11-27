@@ -3,7 +3,7 @@
   right: 0;
 }
 
-@media screen and (max-width: 740px) {
+@media screen and (max-width: 752px) {
   .footer__item_content_copyright {
     position: relative;
   }

@@ -1,11 +1,11 @@
 .lead__baner {
   position: relative;
   max-width: 984px;
-  max-height: 615px;
-  
+  margin: 0 48px;
 }
-@media screen and (max-width: 1024px) {
+
+@media screen and (max-width: 950px) {
   .lead__baner {
-    max-height: 580px;
+    margin: 0;
   }
 }

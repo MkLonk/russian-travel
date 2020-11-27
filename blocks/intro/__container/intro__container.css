@@ -1,16 +1,28 @@
 .intro__container {
   max-width: 690px;
+  padding-left: calc((100vw - 100%)/2);
 }
 
-@media screen and (max-width: 952px) {
+@media screen and (max-width: 1080px) and (min-width: 1024px) {
   .intro__container {
-    padding: 0 24px;
-    max-width: 720px;
+    padding-left: 48px;
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 976px) and (min-width: 768px) {
+  .intro__container {
+    padding-left: 24px;
+  }
+}
+
+@media screen and (max-width: 752px) {
   .intro__container {
     padding: 0 16px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .intro__container {
+    padding: 0 148px;
   }
 }

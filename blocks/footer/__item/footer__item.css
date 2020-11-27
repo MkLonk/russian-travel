@@ -9,7 +9,7 @@
   margin: 0;
 }
 
-@media screen and (max-width: 740px) {
+@media screen and (max-width: 752px) {
   .footer__item {
     margin: 0;
     font-weight: normal;
