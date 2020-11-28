@@ -1,0 +1,44 @@
+.cards__items {
+  max-width: 984px;
+  margin: 0 48px;
+}
+
+/* Адиптивный размеры контейнера */
+
+@media screen and (max-width: 1024px) {
+  .cards__items {
+    margin: 0;
+  }
+}
+
+/* Адиптивные резиновые паддинги */
+
+@media screen and (max-width: 1024px) and (min-width: 1012px) {
+  .cards__items {
+    padding: 0 calc((100vw - 1000px)*2);
+  }
+}
+
+@media screen and (max-width: 1012px) and (min-width: 652px) {
+  .cards__items {
+    padding: 0 24px;
+  }
+}
+
+@media screen and (max-width: 652px) and (min-width: 640px) {
+  .cards__items {
+    padding: 0 calc((100vw - 640px)*2);
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .cards__items {
+    padding: 0;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .cards__items {
+    width: 100%;
+  }
+}

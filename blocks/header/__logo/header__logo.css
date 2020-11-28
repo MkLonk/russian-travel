@@ -1,6 +1,36 @@
 .header__logo {
   width: 176px;
+  padding-left: 48px;
+  box-sizing: padding-box;
 }
+
+/* Адаптивный резиновый правый паддинг */
+
+@media screen and (max-width: 1024px) and (min-width: 976px) {
+  .header__logo {
+    padding-left: 0;
+  }
+}
+
+@media screen and (max-width: 975px) {
+  .header__logo {
+    padding-left: 24px;
+  }
+}
+
+@media screen and (max-width: 768px) and (min-width: 752px) {
+  .header__logo {
+    padding-left: 0;
+  }
+}
+
+@media screen and (max-width: 752px) {
+  .header__logo {
+    padding-left: 16px;
+  }
+}
+
+/* Размер лого */
 
 @media screen and (max-width: 425px) {
   .header__logo {

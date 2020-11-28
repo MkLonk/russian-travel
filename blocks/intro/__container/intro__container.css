@@ -3,6 +3,8 @@
   padding-left: calc((100vw - 100%)/2);
 }
 
+/* Адаптивный контейнер */
+
 @media screen and (max-width: 1080px) and (min-width: 1024px) {
   .intro__container {
     padding-left: 48px;

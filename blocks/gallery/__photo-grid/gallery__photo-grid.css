@@ -17,17 +17,15 @@
   }
 }
 
-@media screen and (max-width: 976px) and (min-width: 768px) {
+@media screen and (max-width: 975px) and (min-width: 769px) {
   .gallery__photo-grid {
     padding: 0 24px;
   }
 }
 
-/* Адиптивный грид */
-
-@media screen and (max-width: 768px) and (min-width: 752px) {
+@media screen and (max-width: 768px) and (min-width: 753px) {
   .gallery__photo-grid {
-    padding: 0 calc((1vw - 100%)/2);
+    padding: 0;
   }
 }
 
@@ -36,6 +34,8 @@
     padding: 0 16px;
   }
 }
+
+/* Адиптивный грид */
 
 @media screen and (max-width: 1024px) {
   .gallery__photo-grid {

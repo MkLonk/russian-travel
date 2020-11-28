@@ -1,6 +1,35 @@
 .header__links {
   padding-top: 18px;
+  padding-right: 48px;
 }
+
+/* Адаптивный резиновый правый паддинг */
+
+@media screen and (max-width: 1024px) and (min-width: 976px) {
+  .header__links {
+    padding-right: 0;
+  }
+}
+
+@media screen and (max-width: 975px) and (min-width: 769px) {
+  .header__links {
+    padding-right: 24px;
+  }
+}
+
+@media screen and (max-width: 768px) and (min-width: 752px) {
+  .header__links {
+    padding-right: 0;
+  }
+}
+
+@media screen and (max-width: 752px) {
+  .header__links {
+    padding-right: 16px;
+  }
+}
+
+/* Адаптивный верхний паддинг */
 
 @media screen and (max-width: 425px) {
   .header__links {

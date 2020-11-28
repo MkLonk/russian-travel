@@ -1,17 +1,19 @@
-.gallery__container {
-  max-width: 1280px;
+.header__container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
 }
 
 /* Адиптивный размеры контейнера */
 
 @media screen and (max-width: 1024px) and (min-width: 976px) {
-  .gallery__container {
+  .header__container {
     max-width: 928px;
   }
 }
 
 @media screen and (max-width: 768px) and (min-width: 753px) {
-  .gallery__container {
+  .header__container {
     max-width: 720px;
   }
 }

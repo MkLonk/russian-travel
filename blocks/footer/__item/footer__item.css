@@ -1,6 +1,7 @@
 .footer__item {
   padding: 0;
   margin-right: 18px;
+  font-weight: 400;
   font-size: 16px;
   line-height: 18px;
 }

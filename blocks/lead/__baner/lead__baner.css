@@ -4,8 +4,9 @@
   margin: 0 48px;
 }
 
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 1024px) {
   .lead__baner {
     margin: 0;
+    max-width: 928px;
   }
 }
