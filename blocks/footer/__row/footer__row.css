@@ -1,0 +1,15 @@
+.footer__row {
+
+}
+
+@media screen and (max-width: 1024px) and (min-width: 1013px) {
+  .footer__row {
+    padding: 0 calc((100vw - 1000px)*2);
+  }
+}
+
+@media screen and (max-width: 1012px) and (min-width: 768px) {
+  .footer__row {
+    padding: 0;
+  }
+}

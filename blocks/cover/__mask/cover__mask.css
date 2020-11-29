@@ -4,11 +4,13 @@
   position: absolute;
   left: 0;
   top: 0;
-  background-color: #2A2C2F;
-  opacity: 0.3;
-  transition: opacity 0.4s ease-in-out;
+  background-color: rgba(42, 44, 47, 0.3);
+  transition: background-color 0.4s ease-in-out;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .cover__mask:hover {
-  opacity: 0.8;
+  background-color: rgba(42, 44, 47, 0.8);
 }
