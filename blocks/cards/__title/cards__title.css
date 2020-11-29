@@ -8,7 +8,7 @@
 @media screen and (max-width: 768px) {
   .cards__title {
     font-size: 42px;
-    line-height: 66px;
+    line-height: 46px;
   }
 }
 
@@ -19,15 +19,10 @@
   }
 }
 
-@media screen and (max-width: 640px) {
-  .cards__title {
-    text-align: center;
-  }
-}
-
 @media screen and (max-width: 425px) {
   .cards__title {
     font-size: 32px;
     line-height: 35px;
+    padding: 0 16px;
   }
 }

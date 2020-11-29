@@ -1,14 +1,23 @@
 .cards__link {
   margin: 0;
-  padding-top: 12px;
+  padding-top: 9px;
   opacity: 1;
   transition: opacity 0.4s ease-in-out;
   font-weight: 400;
   font-size: 18px;
-  line-height: 22px;
+  line-height: 18px;
   color: #fff;
+  box-sizing: border-box;
 }
 
 .cards__link:hover {
   opacity: 0.8;
+}
+
+@media screen and (max-width: 768px) {
+  .cards__link {
+    padding-top: 10px;
+    font-size: 18px;
+    line-height: 23px;
+  }
 }

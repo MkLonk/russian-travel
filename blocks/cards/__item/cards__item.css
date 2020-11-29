@@ -22,11 +22,11 @@
 
 @media screen and (max-width: 768px) {
   .cards__item {
-    margin-bottom: 73px;
+    margin-bottom: 67px;
     grid-template-columns: 340px 1fr;
     grid-template-rows: 1fr minmax(340px, min-content);
     column-gap: 28px;
-    row-gap: 48px;
+    row-gap: 46px;
   }
 }
 
@@ -35,6 +35,6 @@
     margin-bottom: 49px;
     grid-template-columns: 1fr;
     grid-template-rows: min-content minmax(320px, min-content) min-content;
-    row-gap: 48px;
+    row-gap: 32px;
   }
 }

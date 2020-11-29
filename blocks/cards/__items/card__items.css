@@ -1,6 +1,8 @@
 .cards__items {
   max-width: 984px;
   margin: 0 48px;
+  padding: 0;
+  list-style: none;
 }
 
 /* Адиптивный размеры контейнера */
