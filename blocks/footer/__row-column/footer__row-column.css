@@ -1,0 +1,23 @@
+.footer__row-column {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 1024px) and (min-width: 1013px) {
+  .footer__row-column {
+    padding: 0 calc((100vw - 1000px)*2);
+  }
+}
+
+@media screen and (max-width: 1012px) and (min-width: 768px) {
+  .footer__row-column {
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 752px) {
+  .footer__row-column {
+    padding: 0;
+    flex-direction: column;
+  }
+}

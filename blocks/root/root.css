@@ -4,13 +4,20 @@
   border: red solid 1px;
 } */
 
-.page {
-  max-width: 1280px;
-  min-width: 320px;
-  margin: 0 auto;
+.root {
+  max-width: 100%;
+  padding: 0 calc((100vw - 1280px)/2) 0;
   background-color: #2a2c2f;
   color: #fff;
   font-family: 'Inter', 'Arial', sans-serif;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
+}
+
+@media screen and (max-width: 1280px) {
+  .root {
+    max-width: 1280px;
+    min-width: 320px;
+    margin: 0 auto;
+  }
 }

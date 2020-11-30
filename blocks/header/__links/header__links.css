@@ -1,7 +1,10 @@
 .header__links {
-  padding-top: 19px;
-  padding-right: 48px;
+  list-style: none;
+  margin: 0;
+  padding: 19px 48px 0 0;
+  display: flex;
 }
+
 
 /* Адаптивный резиновый правый паддинг */
 
@@ -28,6 +31,7 @@
     padding-right: 16px;
   }
 }
+
 
 /* Адаптивный верхний паддинг */
 

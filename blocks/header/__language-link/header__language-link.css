@@ -3,16 +3,7 @@
   font-weight: 400;
   font-size: 24px;
   line-height: 28px;
-  margin-right: 14px;
   text-decoration: none;
-}
-
-.header__language-link:hover {
-  text-decoration-line: underline;
-}
-
-.header__language-link:last-child {
-  margin-right: 0;
 }
 
 @media screen and (max-width: 425px) {

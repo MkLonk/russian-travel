@@ -4,6 +4,7 @@
   box-sizing: padding-box;
 }
 
+
 /* Адаптивный резиновый правый паддинг */
 
 @media screen and (max-width: 1024px) and (min-width: 976px) {
@@ -29,6 +30,7 @@
     padding-left: 16px;
   }
 }
+
 
 /* Размер лого */
 
